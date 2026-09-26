@@ -1,0 +1,27 @@
+{
+  "item.minecraftmod.suspicious_substance": "Suspicious Substance",
+
+  "item.minecraft.potion.effect.flying": "Potion of Flying",
+  "item.minecraft.splash_potion.effect.flying": "Splash Potion of Flying",
+  "item.minecraft.lingering_potion.effect.flying": "Lingering Potion of Flying",
+  "item.minecraft.tipped_arrow.effect.flying": "Arrow of Flying",
+  "effect.minecraftmod.flying": "Flying",
+
+  "item.minecraft.potion.effect.fire": "Potion of Burning",
+  "item.minecraft.splash_potion.effect.fire": "Splash Potion of Burning",
+  "item.minecraft.lingering_potion.effect.fire": "Lingering Potion of Burning",
+  "item.minecraft.tipped_arrow.effect.fire": "Arrow of Fire",
+  "effect.minecraftmod.fire": "Burning",
+
+  "item.minecraft.potion.effect.armor_decay_1": "Potion of Armor Decay",
+  "item.minecraft.splash_potion.effect.armor_decay_1": "Splash Potion of Armor Decay",
+  "item.minecraft.lingering_potion.effect.armor_decay_1": "Lingering Potion of Armor Decay",
+  "item.minecraft.tipped_arrow.effect.armor_decay_1": "Arrow of Armor Decay",
+  "effect.minecraftmod.armor_decay_1": "Armor Decay",
+
+  "item.minecraft.potion.effect.armor_decay_2": "Potion of Armor Decay",
+  "item.minecraft.splash_potion.effect.armor_decay_2": "Splash Potion of Armor Decay",
+  "item.minecraft.lingering_potion.effect.armor_decay_2": "Lingering Potion of Armor Decay",
+  "item.minecraft.tipped_arrow.effect.armor_decay_2": "Arrow of Armor Decay",
+  "effect.minecraftmod.armor_decay_2": "Armor Decay"
+}
