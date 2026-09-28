@@ -20,8 +20,11 @@
 		],
 		"client": [
 			"reyansh.minecraftmod.client.MinecraftModClient"
-		]
-	},
+		],
+        "fabric-datagen": [
+          "reyansh.minecraftmod.client.MinecraftModDataGenerator"
+        ]
+    },
 	"mixins": [
 		"minecraftmod.mixins.json",
 		{

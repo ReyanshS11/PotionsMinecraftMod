@@ -3,17 +3,17 @@
   "input": {
     "item": "minecraft:potion",
     "potion_contents": {
-      "potion": "minecraftmod:flying"
+      "potion": "minecraft:mundane_potion"
     }
   },
   "reagent": {
-    "item": "minecraft:gunpowder"
+    "item": "minecraft:stick"
   },
   "output": {
-    "id": "minecraft:splash_potion",
+    "id": "minecraft:potion",
     "components": {
       "minecraft:potion_contents": {
-        "potion": "minecraftmod:flying"
+        "potion": "minecraftmod:reach"
       }
     }
   }

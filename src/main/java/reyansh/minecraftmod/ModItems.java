@@ -5,10 +5,12 @@ import net.fabricmc.fabric.api.datagen.v1.provider.FabricBrewingProvider;
 import net.minecraft.core.Holder;
 import net.minecraft.core.Registry;
 import net.minecraft.core.registries.BuiltInRegistries;
+import net.minecraft.data.recipes.BrewingRecipeBuilder;
 import net.minecraft.resources.ResourceKey;
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.Items;
 import net.minecraft.world.item.SplashPotionItem;
 import net.minecraft.world.item.alchemy.Potion;
 import net.minecraft.world.item.crafting.PotionIngredient;
@@ -25,7 +27,7 @@ public class ModItems {
     }
 
     public static final Item SUSPICIOUS_SUBSTANCE = register(ModItemIds.SUSPICIOUS_SUBSTANCE, Item::new, new Item.Properties());
-    public static final Holder<Potion> FLYING_POTION =
+    public static final Holder<Potion> FLYING =
             Registry.registerForHolder(
                     BuiltInRegistries.POTION,
                     ModPotionIds.FLYING_POTION,
@@ -39,7 +41,7 @@ public class ModItems {
                     )
             );
 
-    public static final Holder<Potion> FIRE_POTION =
+    public static final Holder<Potion> FIRE =
             Registry.registerForHolder(
                     BuiltInRegistries.POTION,
                     ModPotionIds.FIRE_POTION,
@@ -77,6 +79,34 @@ public class ModItems {
                                     ModEffects.ARMOR_DECAY_2,
                                     600,
                                     1
+                            )
+                    )
+            );
+
+    public static final Holder<Potion> REACH =
+            Registry.registerForHolder(
+                    BuiltInRegistries.POTION,
+                    ModPotionIds.REACH_POTION,
+                    new Potion(
+                            "reach",
+                            new MobEffectInstance(
+                                    ModEffects.REACH,
+                                    1800,
+                                    0
+                            )
+                    )
+            );
+
+    public static final Holder<Potion> FEATHER_FOOT =
+            Registry.registerForHolder(
+                    BuiltInRegistries.POTION,
+                    ModPotionIds.FEATHER_FOOT_POTION,
+                    new Potion(
+                            "feather_foot",
+                            new MobEffectInstance(
+                                    ModEffects.FEATHER_FOOT,
+                                    1800,
+                                    0
                             )
                     )
             );

@@ -6,11 +6,11 @@ import net.minecraft.world.effect.MobEffectCategory;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.player.Player;
 
-public class FlyingEffect extends MobEffect {
-    protected FlyingEffect() {
+public class FeatherFootEffect extends MobEffect {
+    protected FeatherFootEffect() {
         // category: StatusEffectCategory - describes if the effect is helpful (BENEFICIAL), harmful (HARMFUL) or useless (NEUTRAL)
         // color: int - Color is the color assigned to the effect (in RGB)
-        super(MobEffectCategory.BENEFICIAL, 0x3DE2FF);
+        super(MobEffectCategory.BENEFICIAL, 0xe4f0e7);
     }
 
     @Override
@@ -21,8 +21,7 @@ public class FlyingEffect extends MobEffect {
     @Override
     public boolean applyEffectTick(ServerLevel level, LivingEntity entity, int amplifier) {
         if (entity instanceof Player) {
-            ((Player) entity).getAbilities().mayfly = true;
-            ((Player) entity).onUpdateAbilities();
+            ((Player) entity).fallDistance = 0;
         }
 
         return super.applyEffectTick(level, entity, amplifier);

@@ -23,5 +23,17 @@
   "item.minecraft.splash_potion.effect.armor_decay_2": "Splash Potion of Armor Decay",
   "item.minecraft.lingering_potion.effect.armor_decay_2": "Lingering Potion of Armor Decay",
   "item.minecraft.tipped_arrow.effect.armor_decay_2": "Arrow of Armor Decay",
-  "effect.minecraftmod.armor_decay_2": "Armor Decay"
+  "effect.minecraftmod.armor_decay_2": "Armor Decay",
+
+  "item.minecraft.potion.effect.reach": "Potion of Reach",
+  "item.minecraft.splash_potion.effect.reach": "Splash Potion of Reach",
+  "item.minecraft.lingering_potion.effect.reach": "Lingering Potion of Reach",
+  "item.minecraft.tipped_arrow.effect.reach": "Arrow of Reach",
+  "effect.minecraftmod.reach": "Reach",
+
+  "item.minecraft.potion.effect.feather_foot": "Potion of Feather Foot",
+  "item.minecraft.splash_potion.effect.feather_foot": "Splash Potion of Feather Foot",
+  "item.minecraft.lingering_potion.effect.feather_foot": "Lingering Potion of Feather Foot",
+  "item.minecraft.tipped_arrow.effect.feather_foot": "Arrow of Feather Foot",
+  "effect.minecraftmod.feather_foot": "Feather Foot"
 }

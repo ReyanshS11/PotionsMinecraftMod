@@ -3,17 +3,17 @@
   "input": {
     "item": "minecraft:potion",
     "potion_contents": {
-      "potion": "minecraftmod:fire"
+      "potion": "minecraft:leaping"
     }
   },
   "reagent": {
-    "item": "minecraft:gunpowder"
+    "item": "minecraft:feather"
   },
   "output": {
-    "id": "minecraft:splash_potion",
+    "id": "minecraft:potion",
     "components": {
       "minecraft:potion_contents": {
-        "potion": "minecraftmod:fire"
+        "potion": "minecraftmod:feather_foot"
       }
     }
   }

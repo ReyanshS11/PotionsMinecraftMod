@@ -29,4 +29,16 @@ public class ModEffectIds {
                     Registries.MOB_EFFECT,
                     MinecraftMod.id("armor_decay_2")
             );
+
+    public static final ResourceKey<MobEffect> REACH =
+            ResourceKey.create(
+                    Registries.MOB_EFFECT,
+                    MinecraftMod.id("reach")
+            );
+
+    public static final ResourceKey<MobEffect> FEATHER_FOOT =
+            ResourceKey.create(
+                    Registries.MOB_EFFECT,
+                    MinecraftMod.id("feather_foot")
+            );
 }

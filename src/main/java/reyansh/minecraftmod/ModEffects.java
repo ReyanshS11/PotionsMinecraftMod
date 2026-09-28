@@ -6,7 +6,6 @@ import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.world.effect.MobEffect;
 
 public class ModEffects {
-
     public static final Holder<MobEffect> FLYING =
             Registry.registerForHolder(
                     BuiltInRegistries.MOB_EFFECT,
@@ -33,5 +32,19 @@ public class ModEffects {
                     BuiltInRegistries.MOB_EFFECT,
                     ModEffectIds.ARMOR_DECAY_2,
                     new ArmorDecayEffect()
+            );
+
+    public static final Holder<MobEffect> REACH =
+            Registry.registerForHolder(
+                    BuiltInRegistries.MOB_EFFECT,
+                    ModEffectIds.REACH,
+                    new ReachEffect()
+            );
+
+    public static final Holder<MobEffect> FEATHER_FOOT =
+            Registry.registerForHolder(
+                    BuiltInRegistries.MOB_EFFECT,
+                    ModEffectIds.FEATHER_FOOT,
+                    new FeatherFootEffect()
             );
 }
