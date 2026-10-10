@@ -1,8 +1,10 @@
-# MinecraftMod
+# Potions Plus Minecraft Mod
+This mod adds 6 news potions to Minecraft along with tipped arrows, splash potions, and lingering potions.
 
-## Setup
+![All new items](Screenshots/Potions.png)
 
-For setup instructions, please see the [Fabric Documentation page](https://docs.fabricmc.net/develop/getting-started/creating-a-project#setting-up) related to the IDE that you are using.
+## Download
+You can download it at: [Modrinth Download](https://modrinth.com/mod/potions-plus-rs)
 
 ## License
 
