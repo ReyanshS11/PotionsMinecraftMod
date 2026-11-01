@@ -4,7 +4,7 @@ This mod adds 6 news potions to Minecraft along with tipped arrows, splash potio
 ![All new items](Screenshots/Potions.png)
 
 ## Download
-You can download it at: [Modrinth Download](https://modrinth.com/mod/potions-plus-rs)
+You can download it at: [CurseForge Download](https://www.curseforge.com/minecraft/mc-mods/potions-plus-rs)
 
 ## Brewing and Crafting Recipes
 Here are the potion recipes (all splash and lingering variants are brewed normally):
