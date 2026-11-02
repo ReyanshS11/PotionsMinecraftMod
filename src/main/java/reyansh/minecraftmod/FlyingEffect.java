@@ -1,5 +1,6 @@
 package reyansh.minecraftmod;
 
+import net.minecraft.server.ReloadableServerRegistries;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.world.effect.MobEffect;
 import net.minecraft.world.effect.MobEffectCategory;
@@ -21,10 +22,25 @@ public class FlyingEffect extends MobEffect {
     @Override
     public boolean applyEffectTick(ServerLevel level, LivingEntity entity, int amplifier) {
         if (entity instanceof Player) {
-            ((Player) entity).getAbilities().mayfly = true;
-            ((Player) entity).onUpdateAbilities();
+            var instance = entity.getEffect(ModEffects.FLYING);
+
+            if (instance != null && instance.getDuration() <= 1) {
+                disableCustomMechanics(entity);
+            }
+            else {
+                ((Player) entity).getAbilities().mayfly = true;
+                ((Player) entity).onUpdateAbilities();
+            }
         }
 
         return super.applyEffectTick(level, entity, amplifier);
+    }
+
+    private void disableCustomMechanics(LivingEntity entity) {
+        if (entity instanceof Player) {
+            ((Player) entity).getAbilities().flying = false;
+            ((Player) entity).getAbilities().mayfly = false;
+            ((Player) entity).onUpdateAbilities();
+        }
     }
 }
